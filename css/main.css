@@ -1,0 +1,28 @@
+body
+{
+background-color: #29343d;
+}
+.grid div
+{
+   border: 1px solid #212941;
+   border-radius: 5px;
+   text-align: center;
+   vertical-align: middle;
+   background: linear-gradient(45deg, #fdcead, #fb7eb3);
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 180px 180px 180px 180px;
+    grid-gap: 10px;
+    
+}
+.one
+{
+    color: linear-gradient(45deg, #d89ffa, #fb7ef6);
+}
+.two
+{
+    color: linear-gradient(45deg, #72ccf4 #79ebe0);
+}
